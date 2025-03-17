@@ -33,3 +33,10 @@ Login to ArgoCD: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-log
 
 
 ArgoCD Configuration: https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/
+
+
+apiVersion: argoproj.io/v1alpha1
+kind: ArgoCD
+metadata:
+  name: example-argocd
+spec: {}
